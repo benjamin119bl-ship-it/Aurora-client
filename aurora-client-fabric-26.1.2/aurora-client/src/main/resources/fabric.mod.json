@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "aurora",
+  "version": "${version}",
+  "name": "Aurora Client",
+  "description": "Client-side atmosphere and utility mod: dense rain impacts, night meteors, color-graded weather, fullbright, zoom and a tiny HUD. No mixins, adaptive performance.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.aurora.AuroraClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.1",
+    "minecraft": "~26.1",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
